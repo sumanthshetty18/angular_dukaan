@@ -1,0 +1,14 @@
+<div class="card mx-auto col-lg-6">
+    <div class="card-body mx-auto">
+        <h2>Having any issues? Contact Us :</h2>
+        <div class="all">
+            <div class="row col-lg-6" *ngFor="let m of con">
+                {{ m.name | uppercase}} <br><br>
+                <i class="fa fa-envelope" aria-hidden="true"> {{m.emailid}}</i> <br>
+                <i class="fa fa-phone" aria-hidden="true"> {{ m.number }} </i><br>
+                <i class="fa fa-user" aria-hidden="true">  {{m.post}}</i>
+                <br><br>
+            </div>
+        </div>
+    </div>
+</div>

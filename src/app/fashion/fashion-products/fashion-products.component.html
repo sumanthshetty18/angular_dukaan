@@ -1,0 +1,31 @@
+<div class="card-body col-lg-12">
+    <div class="row">
+        <div class="col-lg-3">
+            <!--Property Binding-->
+            <img [src]="item.img">
+        </div>
+        <div class="col-lg-9 fash" style="margin-top:20px;">
+            <!--Interpolation Binding-->
+            <div>
+                <b>{{item.pname}}</b>
+                <button type="button" id="details" class="btn btn-info" (click)="showproductDetailsToggle()"
+                    [ngClass]="toggleContent()">Show/Hide Details</button>
+                <br>
+            </div>
+            <hr>
+            <div [hidden]="productDetail">
+                {{item.pdescription}}
+                <br>
+                Price: {{item.price | currency:'INR'}}
+                <br>
+                <!-- <app-counter></app-counter> -->
+            </div>
+            <div class="cartcontainer">
+                <div class="quant"> Quantity: <input type="number" [(ngModel)]="quantity" name="quantity" style="width:50px;border-radius:10px;" min="1" max="25"></div>
+                <button class="addcart btn btn-warning m-3" (click)="addToCart(item)" style="width:150px;border-radius:10px;">Add to Cart</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<br>

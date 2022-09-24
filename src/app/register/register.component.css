@@ -1,0 +1,59 @@
+.container{
+    margin: 0 auto;
+    width: 300px;
+    border: 1px solid rgb(227, 224, 216);
+    border-radius: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    box-shadow: 5px 7px 25px #888888;;
+}
+.head{
+    width: 299px;
+    background-color:#57b846;
+    color: aliceblue;
+    border-radius: 20px 20px 0pc 0px;
+    height: 80px;
+}
+.head h3{
+    text-align: center;
+    padding: 0 auto;
+    font-weight: 700;
+    font-family:monospace;
+    letter-spacing: 1px;
+}
+.contain-item{
+    margin-left: 30px;
+}
+input{
+    width: 240px;
+    height: 40px;
+    border-width: 0.7px;
+    border-radius: 10px;
+    font-weight: 400;
+}
+#name,#pwd,#email,#phone{
+    padding-left: 15px;
+    background-color: #ebebeb;
+}
+.loginbtn{
+    background-color:#57b846;
+    border: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.loginbtn:hover{
+    opacity: .7;
+}
+.signup{
+     margin-top: 30px;
+     margin-left: 20px;
+}
+.signup a{
+    text-decoration: none;
+}
+.signup a:hover{
+    color: red;
+}

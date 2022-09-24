@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+ 
+.card{
+    border: none;
+    /* margin-left: 10px; */
+}
+.audio_items{
+    margin-left: 50px;
+}
+.audio_items h2{
+    font-family:cursive;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.audioIMG{
+    width: 190px;
+    height: 120px;
+}

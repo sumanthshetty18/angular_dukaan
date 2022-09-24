@@ -1,0 +1,57 @@
+<!-- <div class="container  ">
+    <div class="head">
+        <br>
+        <h3>Login</h3>
+    </div> 
+    <div class="contain-item">
+         <br><br>
+        <input type="text" name="username" id="name" placeholder="Username"><br><br>
+        <input type="password" name="password" id="pwd" placeholder="Password" ><br><br>
+        <input type="button" class="loginbtn"  value="Login">
+        <p class="signup">Dont have Account? <a href="#">Signup</a></p>
+    </div>
+</div> -->
+
+<div class="login-form contain">
+    <form [formGroup]="loginForm" (ngSubmit)="login()">
+        <div class="head">
+            <br>
+            <h3>Login</h3>
+        </div>
+        <div class="mt-5 contain-item">
+            <div class="form-group">
+                <input type="email" class="form-control uemail" name="useremail" formControlName="useremail"
+                    placeholder="User Email">
+                <label class="error ng-binding"
+                    *ngIf="submitted && f['useremail'].errors?.['required']">Email is required</label>
+                <label class="error ng-binding"
+                    *ngIf="submitted && f['useremail'].errors?.['useremail']">Email must be a valid
+                    email address</label>
+            </div>
+            <br>
+            <div class="form-group">
+                <input type="password" class="form-control upass" name="password" formControlName="password"
+                    placeholder="Password">
+                <label class="error ng-binding"
+                    *ngIf="submitted && f['password'].errors?.['required']">Password is required</label>
+                <label class="error ng-binding"
+                    *ngIf="submitted && f['password'].errors?.['minlength']">Password must be at least 6
+                    characters</label>
+            </div>
+            <br>
+            <!-- <button type="submit" class="loginbtn" href="">Login</button> -->
+            <input type="submit" class="loginbtn"  value="Login">
+
+            <p class="signup">Dont have Account? <a href="register">Signup</a></p>
+            <!-- <div class="ms-fs-12 text-center ms-mt-x ms-mb-m forgot">
+                <p style="padding-top:30px">
+                    <a href="register" class="secondary ng-binding" target="_blank">
+                        Don't have an account? Register...
+                    </a>
+                </p>
+                <p>
+                </p>
+            </div> -->
+        </div>
+    </form>
+</div>

@@ -1,0 +1,14 @@
+<div class="laptops">
+    <h2>Laptops</h2>
+    <br>
+    <div class="row">
+        <div class="col col-lg-4 col-md-6 col-sm-12 card" *ngFor="let lap of Laptops">
+            <img [src]="lap.img" class="card-img-top lapIMG" alt="...">
+            <div class="card-body">
+                <h4>{{lap.name}}</h4>
+                <p [style.font-style]="'italic'" [style.font-family]="'cursive'">{{lap.desc}}</p>
+                <p><b>{{lap.price | currency:"INR"}}</b></p>
+            </div>
+        </div>
+    </div>
+</div>

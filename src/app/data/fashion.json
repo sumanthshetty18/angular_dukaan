@@ -1,0 +1,37 @@
+[
+    {
+        "pid":1,
+        "pname":"T-shirt",
+        "img":"https://rukminim1.flixcart.com/image/832/832/kuczmvk0/shopsy-t-shirt/7/j/f/l-mens-xoxo-white-smartees-original-imag7hb3xgfe86nh.jpeg?q=70",
+        "pdescription":"Printed Men Round Neck White T-Shirt",
+        "price":"299"
+    },
+    {
+        "pid":2,
+        "pname":"Jeans Pant - Men",
+        "img":"https://rukminim1.flixcart.com/image/832/832/kyt0ya80/jean/o/y/r/32-maw21elppjn541-metronaut-original-imagaybfqefvzngy.jpeg?q=70",
+        "pdescription":"Slim Men Light Blue Jeans",
+        "price":"467"
+    },
+    {
+        "pid":3,
+        "pname":"Shirt",
+        "img":"https://rukminim1.flixcart.com/image/832/832/xif0q/shirt/e/q/g/s-double-threshold-blue-shirt-qlonz-store-original-imafufjvfd9wdh3a-bb.jpeg?q=70",
+        "pdescription":"Men Regular Fit Solpid Mandarin Collar Casual Shirt",
+        "price":"319"
+    },
+    {
+        "pid":4,
+        "pname":"Formal Trousers",
+        "img":"https://rukminim1.flixcart.com/image/832/832/xif0q/trouser/y/o/i/32-cyfor-f-cyphus-original-imag6yzhz8kfsfpr-bb.jpeg?q=70",
+        "pdescription":"Regular Fit Men Grey Cotton Blend Trousers",
+        "price":"499"
+    },
+    {
+        "pid":5,
+        "pname":"Hoodie",
+        "img":"https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/v/z/x/xs-togrwthdful-d59-tripr-original-imaggs7dtksm6bzg.jpeg?q=70",
+        "pdescription":"Full Sleeve Printed Men Sweatshirt",
+        "price":"489"
+    }
+]

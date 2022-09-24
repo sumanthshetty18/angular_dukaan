@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "name":"ASUS Vivobook 15",
+        "desc":"Core i3 10th Gen - (8 GB/256 GB SSD/Windows 11 Home)",
+        "price":"27990",
+        "img":"https://rukminim1.flixcart.com/image/416/416/xif0q/computer/o/t/h/-original-imagg6t9pauha4t7.jpeg?q=70"
+    },
+    {
+        "id":2,
+        "name":"acer Aspire 7",
+        "desc":"Ryzen 5 Hexa Core 5500U - (8 GB/512 GB SSD/Windows 10 Home)",
+        "price":"49990",
+        "img":"https://rukminim1.flixcart.com/image/416/416/klcmoi80/computer/q/e/3/na-gaming-laptop-acer-original-imagyhwfgwhkf3vv.jpeg?q=70"
+    },
+    {
+        "id":1,
+        "name":"HP 14s",
+        "desc":"Core i5 12th Gen - (16 GB/512 GB SSD/Windows 11 Home) ",
+        "price":"58499",
+        "img":"https://rukminim1.flixcart.com/image/416/416/l5h2xe80/computer/h/i/p/14s-dy5005tu-thin-and-light-laptop-hp-original-imagg4rc7n75zqkp.jpeg?q=70"
+    }
+]

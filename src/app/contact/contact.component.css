@@ -1,0 +1,15 @@
+.card{
+    margin: 0px auto;
+    letter-spacing: 1px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+.card h2{
+    font-family:monospace;  
+    text-align: center; 
+    margin-bottom: 50px;
+}
+
+.row{
+    float: left;
+    --bs-gutter-x:0;
+}

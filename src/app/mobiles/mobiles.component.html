@@ -1,0 +1,18 @@
+<div >
+    <div class="row">
+            <div class="col col-lg-4 col-md-6 col-sm-12 card" *ngFor="let mob of mobiles" >
+                <img [src]="mob.m_img" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4>{{mob.m_brand}} {{mob.m_model}}</h4>
+                    <p [style.font-style]="'italic'" [style.font-family]="'cursive'">{{mob.m_descr}}</p>
+                    <p><b>{{mob.m_price | currency:"INR"}}</b></p>
+                    <p [ngSwitch]="mob.m_status" class="status">
+                        <span *ngSwitchCase="'Instock'" class="text-success">{{mob.m_status}}</span>
+                        <span *ngSwitchCase="'Out of Stock'" class="text-danger">{{mob.m_status}}</span>
+                    </p>
+                    <app-counter></app-counter>
+                </div>
+            </div>
+        
+    </div>
+</div>

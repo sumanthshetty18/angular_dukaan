@@ -1,0 +1,14 @@
+<div class="audio_items">
+    <h2>Audio Items</h2><br>
+    <div class="row">
+        <div class="col col-lg-4 col-md-6 col-sm-12 card " *ngFor="let itemX of audioItem">
+            <img [src]="itemX.img" class="card-img-top audioIMG" alt="...">
+            <div class="card-body">
+                <h4>{{itemX.pname}}</h4>
+                <p [style.font-style]="'italic'" [style.font-family]="'cursive'">{{itemX.pdescription}}</p>
+                <p><b>{{itemX.price| currency:"INR"}}</b></p>
+                <!-- <p><b>{{item.ai_price | currency:"INR"}}</b></p> -->
+            </div>
+        </div>
+    </div>
+</div>

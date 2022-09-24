@@ -1,0 +1,15 @@
+.card{
+    border: none;
+    margin-top: 50px;
+}
+.card img{
+    width: 130px;
+    height: 200px;
+    margin: 0 auto;
+}
+.card-body{
+    margin-left: 80px;
+}
+.status span{
+    font-size: 19px;
+}

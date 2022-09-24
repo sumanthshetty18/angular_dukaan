@@ -1,0 +1,131 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "pname": "JBL Bluetooth Headset",
+      "pdescription": "JBL T450BT Extra Bass Bluetooth Headset ",
+      "price": "1799",
+      "img": "https://rukminim1.flixcart.com/image/416/416/jzk5xu80/headphone/n/4/y/jbl-t450-bt-original-imaff82dfjjh93zj.jpeg?q=70"
+    },
+    {
+      "id": 2,
+      "pname": "boAt Bluetooth Speaker",
+      "pdescription": "boAt Stone 1000 14 W Portable Speaker",
+      "price": "2999",
+      "img": "https://rukminim1.flixcart.com/image/416/416/kfu0h3k0-0/speaker/mobile-tablet-speaker/r/p/p/stone-1000-boat-original-imafw785dq6xtta4.jpeg?q=70"
+    },
+    {
+      "id": 3,
+      "pname": "realme Buds",
+      "pdescription": "realme Buds Air 3 Neo Headset ",
+      "price": "2099",
+      "img": "https://rukminim1.flixcart.com/image/416/416/l572ufk0/headphone/x/o/p/air-3-neo-realme-original-imagfxcbkt8rmqbg.jpeg?q=70"
+    },
+    {
+      "id": 4,
+      "pname": "ASUS Vivobook 15",
+      "pdescription": "Core i3 10th Gen - (8 GB/256 GB SSD)",
+      "price": "27990",
+      "img": "https://rukminim1.flixcart.com/image/416/416/xif0q/computer/o/t/h/-original-imagg6t9pauha4t7.jpeg?q=70"
+    },
+    {
+      "id": 5,
+      "pname": "acer Aspire 7",
+      "pdescription": "Ryzen 5 Hexa 5900U - (8 GB/512 GB SSD )",
+      "price": "49990",
+      "img": "https://rukminim1.flixcart.com/image/416/416/klcmoi80/computer/q/e/3/na-gaming-laptop-acer-original-imagyhwfgwhkf3vv.jpeg?q=70"
+    },
+    {
+      "id": 6,
+      "pname": "Dell 14s-5",
+      "pdescription": "Core i3 12th Gen - (8 GB/512 GB SSD) ",
+      "price": "60499",
+      "img": "https://rukminim1.flixcart.com/image/416/416/l5h2xe80/computer/h/i/p/14s-dy5005tu-thin-and-light-laptop-hp-original-imagg4rc7n75zqkp.jpeg?q=70"
+    },
+    {
+      "id": 7,
+      "pname": "Boult Smart Watch",
+      "pdescription": "Bluetooth Calling,  HD Display Smartwatch   ",
+      "price": "1599",
+      "img": "https://rukminim1.flixcart.com/image/416/416/xif0q/smartwatch/o/l/h/-original-imagghz3bxh5cmab.jpeg?q=70"
+    },
+    {
+      "id": 8,
+      "pname": "Mi Smart Band",
+      "pdescription": "Band 5  (Black Strap, Size : Regular)",
+      "price": "2370",
+      "img": "https://rukminim1.flixcart.com/image/312/312/k65d18w0pkrrdj/smart-band-tag/v/y/t/xmsh09hm-mi-original-imafmq7dhwsnjseg.jpeg?q=70"
+    }
+  ],
+  "users": [
+    {
+      "username": "john@gmail.com",
+      "useremail": "pallavikatari@gmail.com",
+      "password": "John@123",
+      "mobile": "",
+      "id": 1
+    },
+    {
+      "username": "Admin",
+      "useremail": "admin@gmail.com",
+      "password": "admin@123",
+      "mobile": "9898989898",
+      "id": 3
+    },
+    {
+      "username": "Jancy",
+      "useremail": "jancy@gmail.com",
+      "password": "jancy123",
+      "mobile": "9736328927",
+      "id": 4
+    },
+    {
+      "username": "sumanth",
+      "useremail": "sumanth@gmail.com",
+      "password": "123456",
+      "mobile": "9745267920",
+      "id": 5
+    },
+    {
+      "username": "demo",
+      "useremail": "demo@gmail.com",
+      "password": "demo123",
+      "mobile": "",
+      "id": 6
+    }
+  ],
+  "cart": [
+    {
+      "pname": "Formal Trousers",
+      "pdescription": "Regular Fit Men Grey Cotton Blend Trousers",
+      "price": "499",
+      "img": "https://rukminim1.flixcart.com/image/832/832/xif0q/trouser/y/o/i/32-cyfor-f-cyphus-original-imag6yzhz8kfsfpr-bb.jpeg?q=70",
+      "quantity": 2,
+      "id": 1
+    },
+    {
+      "pname": "Hoodie",
+      "pdescription": "Full Sleeve Printed Men Sweatshirt",
+      "price": "489",
+      "img": "https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/v/z/x/xs-togrwthdful-d59-tripr-original-imaggs7dtksm6bzg.jpeg?q=70",
+      "quantity": 1,
+      "id": 2
+    },
+    {
+      "pname": "Jeans Pant - Men",
+      "pdescription": "Slim Men Light Blue Jeans",
+      "price": "467",
+      "img": "https://rukminim1.flixcart.com/image/832/832/kyt0ya80/jean/o/y/r/32-maw21elppjn541-metronaut-original-imagaybfqefvzngy.jpeg?q=70",
+      "quantity": 3,
+      "id": 3
+    },
+    {
+      "pname": "T-shirt",
+      "pdescription": "Printed Men Round Neck White T-Shirt",
+      "price": "299",
+      "img": "https://rukminim1.flixcart.com/image/832/832/kuczmvk0/shopsy-t-shirt/7/j/f/l-mens-xoxo-white-smartees-original-imag7hb3xgfe86nh.jpeg?q=70",
+      "quantity": 2,
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+[
+    {
+        "pid":1,
+        "pname":"JBL Bluetooth Headset",
+        "pdescription":"JBL T450BT Extra Bass with Voice Assistant Support Bluetooth Headset ",
+        "price":"1799",
+        "img":"https://rukminim1.flixcart.com/image/416/416/jzk5xu80/headphone/n/4/y/jbl-t450-bt-original-imaff82dfjjh93zj.jpeg?q=70"
+    },
+    {
+        "pid":2,
+        "pname":"boAt Bluetooth Speaker",
+        "pdescription":"boAt Stone 1000 14 W Portable Bluetooth Speaker at lowest price",
+        "price":"2999",
+        "img":"https://rukminim1.flixcart.com/image/416/416/kfu0h3k0-0/speaker/mobile-tablet-speaker/r/p/p/stone-1000-boat-original-imafw785dq6xtta4.jpeg?q=70"
+    },
+    {
+        "pid":1,
+        "pname":"realme Buds",
+        "pdescription":"realme Buds Air 3 Neo with up to 30 hours Playback Bluetooth Headset ",
+        "price":"2099",
+        "img":"https://rukminim1.flixcart.com/image/416/416/l572ufk0/headphone/x/o/p/air-3-neo-realme-original-imagfxcbkt8rmqbg.jpeg?q=70"
+    }
+]

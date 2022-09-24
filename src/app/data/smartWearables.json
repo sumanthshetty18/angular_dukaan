@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Boult Smart Watch",
+        "desc": "Bluetooth Calling,  HD Display Smartwatch   ",
+        "price": "1599",
+        "img": "https://rukminim1.flixcart.com/image/416/416/xif0q/smartwatch/o/l/h/-original-imagghz3bxh5cmab.jpeg?q=70"
+    },
+    {
+        "id": 2,
+        "name": "Mi Smart Band",
+        "desc": "Band 5  (Black Strap, Size : Regular)",
+        "price": "2370",
+        "img": "https://rukminim1.flixcart.com/image/312/312/k65d18w0pkrrdj/smart-band-tag/v/y/t/xmsh09hm-mi-original-imafmq7dhwsnjseg.jpeg?q=70"
+    },
+    {
+        "id": 3,
+        "name": "HOMOZE VR BOX ",
+        "desc": "Virtual Reality Headset Glasses  ",
+        "price": "799",
+        "img": "https://rukminim1.flixcart.com/image/416/416/xif0q/smart-glass/z/i/p/hz-vr-box-3d-homoze-original-imaghmmghm9qgfp7.jpeg?q=70"
+    }
+]
