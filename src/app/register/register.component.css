@@ -16,7 +16,7 @@
 }
 .head h3{
     text-align: center;
-    padding: 0 auto;
+    padding-top: 20px;
     font-weight: 700;
     font-family:monospace;
     letter-spacing: 1px;
@@ -31,11 +31,11 @@ input{
     border-radius: 10px;
     font-weight: 400;
 }
-#name,#pwd,#email,#phone{
+.inputbackground{
     padding-left: 15px;
     background-color: #ebebeb;
 }
-.loginbtn{
+.registerbtn{
     background-color:#57b846;
     border: none;
     color: white;
@@ -44,16 +44,16 @@ input{
     font-weight: 700;
     letter-spacing: 1px;
 }
-.loginbtn:hover{
+.registerbtn:hover{
     opacity: .7;
 }
-.signup{
-     margin-top: 30px;
-     margin-left: 20px;
+.login{
+    margin-bottom: 20px;
+    padding-right: 20px;
 }
-.signup a{
+.login span a{
     text-decoration: none;
 }
-.signup a:hover{
+.login span a:hover{
     color: red;
 }
