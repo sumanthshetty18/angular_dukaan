@@ -52,9 +52,9 @@
   ],
   "users": [
     {
-      "username": "john@gmail.com",
-      "useremail": "pallavikatari@gmail.com",
-      "password": "John@123",
+      "username": "karthik",
+      "useremail": "karthik@gmail.com",
+      "password": "kar@123",
       "mobile": "",
       "id": 1
     },
@@ -66,9 +66,9 @@
       "id": 3
     },
     {
-      "username": "Jancy",
-      "useremail": "jancy@gmail.com",
-      "password": "jancy123",
+      "username": "rohan",
+      "useremail": "rohan@gmail.com",
+      "password": "rohan@123",
       "mobile": "9736328927",
       "id": 4
     },
@@ -83,22 +83,8 @@
       "username": "demo",
       "useremail": "demo@gmail.com",
       "password": "demo123",
-      "mobile": "",
+      "mobile": "8938290384",
       "id": 6
-    },
-    {
-      "username": "sdff334",
-      "useremail": "admin@gmail.com",
-      "password": "",
-      "mobile": "",
-      "id": 7
-    },
-    {
-      "username": "sumanth",
-      "useremail": "admin@gmail.com",
-      "password": "",
-      "mobile": "",
-      "id": 8
     }
   ],
   "cart": [
