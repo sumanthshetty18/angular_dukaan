@@ -27,31 +27,38 @@
                 <br>
                 <div class="contain-item">
                     <div class="form-group">
-                        <input type="text" class="form-control inputbackground" name="username" formControlName="username"
-                            placeholder="Enter Username">
-                        <label class="error ng-binding" *ngIf="submitted && f['username'].invalid">Name is required</label>
-                        <label class="error ng-binding" *ngIf="submitted && f['username'].errors?.['pattern']">Name should contain only Alphabets</label>
+                        <input type="text" class="form-control inputbackground" name="username"
+                            formControlName="username" placeholder="Enter Username">
+                        <label class="error ng-binding" *ngIf="submitted && f['username'].invalid">Name is
+                            required</label>
+                        <label class="error ng-binding" *ngIf="submitted && f['username'].errors?.['pattern']">Name
+                            should contain only Alphabets</label>
                     </div>
                     <br>
                     <div class="form-group">
-                        <input type="email" class="form-control inputbackground" name="useremail" formControlName="useremail"
-                            placeholder="Enter email">
+                        <input type="email" class="form-control inputbackground" name="useremail"
+                            formControlName="useremail" placeholder="Enter Email">
                         <label class="error ng-binding" *ngIf="submitted && f['useremail'].invalid">Email is required
                         </label>
-                        <label class="error ng-binding" *ngIf="submitted && f['useremail'].errors?.['useremail']">Email
-                            must be a valid email address</label>
+                        <!-- <label class="error ng-binding" *ngIf="submitted && f['useremail'].errors?.['useremail']">Email
+                            must be a valid email address</label> -->
                     </div>
                     <br>
                     <div class="form-group">
-                        <input type="password" class="form-control inputbackground" name="password" formControlName="password" placeholder="Enter password">
-                        <label class="error ng-binding" *ngIf="submitted && f['password'].invalid">Password is required</label>
-                        <label class="error ng-binding" *ngIf="submitted && f['password'].errors?.['minlength']">Password must be at least 6 characters</label>
+                        <input type="password" class="form-control inputbackground" name="password"
+                            formControlName="password" placeholder="Enter password">
+                        <label class="error ng-binding" *ngIf="submitted && f['password'].invalid">Password is
+                            required</label>
+                        <label class="error ng-binding"
+                            *ngIf="submitted && f['password'].errors?.['minlength']">Password must be at least 6
+                            characters</label>
                     </div>
                     <br>
                     <div class="form-group">
                         <input type="text" class="form-control inputbackground" name="mobile" formControlName="mobile"
                             placeholder="Enter Mobile number">
-                        <label class="error ng-binding" *ngIf="submitted && f['mobile'].errors?.['required']">Mobile number is required</label>
+                        <label class="error ng-binding" *ngIf="submitted && f['mobile'].errors?.['required']">Mobile
+                            number is required</label>
                     </div>
                     <br>
                     <input type="submit" class="registerbtn" value="Register">
