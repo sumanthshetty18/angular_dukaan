@@ -8,11 +8,11 @@ export const environment = {
   // userapi:"http://localhost:3000/users",
   // cartapi:"http://localhost:3000/cart"
 
-  
-  postsapi:"https://heroku-json-fakedb-dukaan.herokuapp.com/posts",     //heroku
-  //userapi:"https://heroku-json-fakedb-dukaan.herokuapp.com/users",   //heroku
-  userapi:"https://localhost:7246/api/Registrations",                   //dot net
-  cartapi:"https://heroku-json-fakedb-dukaan.herokuapp.com/cart"        //heroku
+
+  postsapi: "https://heroku-json-fakedb-dukaan.herokuapp.com/posts",     //heroku
+  userapi: "https://heroku-json-fakedb-dukaan.herokuapp.com/users",   //heroku
+  // userapi:"https://localhost:7246/api/Registrations",                   //dot net
+  cartapi: "https://heroku-json-fakedb-dukaan.herokuapp.com/cart"        //heroku
 };
 
 /*

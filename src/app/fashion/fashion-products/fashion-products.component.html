@@ -9,7 +9,7 @@
             <div>
                 <b>{{item.pname}}</b>
                 <button type="button" id="details" class="btn btn-info" (click)="showproductDetailsToggle()"
-                    [ngClass]="toggleContent()">Show/Hide Details</button>
+                    [ngClass]="toggleContent()">{{productDetail ? 'Show Details':'Hide Details'}}</button>
                 <br>
             </div>
             <hr>
